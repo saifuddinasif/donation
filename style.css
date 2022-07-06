@@ -1,0 +1,559 @@
+:root{
+   
+
+    --black:#130f40;
+    --light-color:#666;
+ 
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+.main-header{
+    background:  linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+    url("images/donation9.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+ 
+    
+ 
+}
+.main-header-p{
+  
+position: absolute;
+width: 691px;
+height: 51.62px;
+left: 375px;
+top: 338.09px;
+font-family: 'Sacramento', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+h1{
+    position: absolute;
+    width: 826px;
+    height: 145.66px;
+    left: 307px;
+    top: 174px;
+    
+    font-family: 'Sacramento', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+
+}
+
+.donate-today-p1{
+    position: absolute;
+    width: 691px;
+    height: 56px;
+    left: 375px;
+    top: 973px;
+    
+    font-family: 'Sacramento', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    
+    text-align: center;
+    
+    color: #707070;
+}
+
+.donate-today-h1{
+   
+    position: absolute;
+width: 304px;
+height: 4px;
+left: 568px;
+top: 900px;
+font-family: 'Pacifico', cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+text-align: center;
+
+color: #121212;
+}
+
+
+.icons-container{
+/*    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));  */
+    display: flex;
+    justify-content: space-between;
+
+  
+
+    gap:1.5rem;
+    padding-top: 25rem;
+    padding-bottom: 5rem;
+    background: #eee;
+    padding-bottom: 200px;
+}
+
+.icons-container .icons{
+    background:#fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    padding:2rem;
+    gap:1.5rem;
+}
+
+.icons-container .icons i{
+    height:5rem;
+    width:5rem;
+    line-height:5rem;
+    font-size:2.5rem;
+    color:#130f40;
+    background:#eee;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.icons-container .icons .content h3{
+    font-size: 2.5rem;
+    color: #707070;
+}
+
+
+
+.icons-container .icons:hover{
+    background:#130f40;
+}
+
+
+
+.icons-container .icons:hover .content h3{
+    color:yellow;
+}
+.other{
+    position: absolute;
+width: 192px;
+height: 28px;
+left: 605px;
+top: 1192px;
+
+font-family: 'Sacramento', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+
+
+text-align: center;
+
+color: #B3B3B3;
+
+
+}
+l{
+    position: absolute;
+width: 864px;
+height: 0px;
+left: 319px;
+top: 1239.5px;
+
+border: 1px solid #DADADA;
+}
+
+.btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 12px;
+gap: 8px;
+
+position: absolute;
+width: 160px;
+height: 56px;
+left: 640px;
+top: 1269.5px;
+color: white;
+border: none;
+
+background: #FF5959;
+border-radius: 5px;
+}
+
+.services{
+    padding-top: 150px;
+}
+.services h1{
+    position: absolute;
+width: 357px;
+height: 54px;
+left: 542px;
+top: 1415.5px;
+
+font-family: 'Sacramento', cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+text-align: center;
+
+color: #121212;
+}
+.services .p1{
+    position: absolute;
+width: 691px;
+height: 56px;
+left: 375px;
+top: 1489.5px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+
+
+/* or 156% */
+
+text-align: center;
+
+color: #707070;
+}
+
+.services .box-container{
+  /*   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
+    display: flex;
+
+    justify-content: space-between;
+    gap:1.5rem;
+    padding-top: 50px;
+
+}
+
+.services .box-container .box-1{
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow:.1rem solid rgba(0,0,0,.1);
+    border:var(--border);
+    text-align: center;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+
+
+.services .box-container .box-1 h3{
+    font-size: 2.2rem;
+    color:#130f40;
+}
+
+.services .box-container .box-1 p{
+    line-height: 1.8;
+    padding:1rem 0;
+    font-size: 1.4rem;
+    color:#666;
+}
+
+.services .box-container .box-1:hover{
+    background: #130f40;
+}
+
+.services .box-container .box-1:hover h3{
+    color:#fff;
+}
+
+
+
+
+/* box-2 */
+
+.services .box-container .box-2{
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    text-align: center;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+
+
+
+.services .box-container .box-2 h3{
+    font-size: 2.2rem;
+    color:#130f40;
+}
+
+.services .box-container .box-2 p{
+    line-height: 1.8;
+    padding:1rem 0;
+    font-size: 1.4rem;
+    color:#666;
+}
+
+.services .box-container .box-2:hover{
+    background: #130f40;
+}
+
+.services .box-container .box-2:hover h3{
+    color:#fff;
+}
+
+
+
+
+/* box-3 */
+
+.services .box-container .box-3{
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    text-align: center;
+    background: #fff4d650;
+    border-radius: 5px;
+}
+
+
+
+.services .box-container .box-3 h3{
+    font-size: 2.2rem;
+    color:#130f40;
+}
+
+.services .box-container .box-3 p{
+    line-height: 1.8;
+    padding:1rem 0;
+    font-size: 1.4rem;
+    color:#666;
+}
+
+.services .box-container .box-3:hover{
+    background:#130f40
+}
+
+.services .box-container .box-3:hover h3{
+    color:#fff;
+}
+
+
+
+
+.gallery h4{
+    position: absolute;
+width: 492px;
+height: 108px;
+left: 527px;
+top: 1999px;
+
+font-family: 'Sacramento', cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+
+color: #121212
+}
+
+.gallery h4 span{
+ color: #f9d806;
+}
+.featured{
+
+    padding-top: 200px;
+}
+.featured .gallery  {
+    display: flex;
+  /*   flex-wrap: wrap; */
+  flex-flow: row wrap;
+
+
+ 
+   /*  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
+    gap:4.5rem;
+
+
+    justify-content:space-evenly;
+   
+
+}
+/* galley box 11 */
+.featured .gallery .box-11{
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    text-align: center;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    width: auto;
+    padding-bottom: 0px;
+
+  
+}
+
+
+.box-11 img{
+    margin: auto;
+      width: 100%;
+   height: 15rem;
+}
+
+
+.gallery .box-11 h3{
+    font-size: 2.2rem;
+    color:#130f40;
+}
+
+
+.gallery .box-11:hover{
+    background: #130f40;
+}
+
+.gallery .box-11:hover h3{
+    color:#fff;
+}
+
+
+.update h2{
+    position: absolute;
+width: 353px;
+height: 54px;
+left: 544px;
+top: 3262px;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+text-align: center;
+
+color: #121212
+}
+
+
+.update p{
+    position: absolute;
+    width: 691px;
+    height: 56px;
+    left: 375px;
+    top: 3336px;
+    font-family: 'Sacramento', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  
+    
+    text-align: center;
+    
+    color: #707070;
+}
+
+
+.orange{
+    position: absolute;
+width: 809px;
+height: 200px;
+left: 316px;
+top: 3442px;
+
+background: #FFF4D6;
+}
+
+.orange .box{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 275px;
+    height: 48px;
+    left: 205px;
+    top: 100px;
+    
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.orange  h2{
+    position: absolute;
+    width: 157px;
+    height: 48px;
+    left: 450px;
+    top: 100px;
+    font-size: 20px;
+    
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+  
+    width: auto;
+}
+
+.footer{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 575.52%;
+    bottom: 0%;
+    padding-bottom: 160px;
+  
+    
+    /* Default / Black */
+    
+
+}
+
+.LAST-DIV{
+    width: auto;
+    background: #130f40;
+    height: 10rem;
+    height: 30vh;
+   
+}
+
+.LAST-DIV h5{
+    letter-spacing: 0.5px;
+     color: #FF5959;
+     font-family: 'Lobster';
+font-style: normal;
+text-align: center;
+padding-top: 30px;
+}
+.LAST-DIV p{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 10px;
+}
+
+.credit{
+    text-align: center;
+    color: whitesmoke;
+ 
+    padding-top: 10px;
+    font-family: 'Sacramento', cursive
+}
