@@ -1,11 +1,4 @@
-:root{
-   
 
-    --black:#130f40;
-    --light-color:#666;
- 
-    
-}
 *{
     padding: 0;
     margin: 0;
@@ -256,7 +249,7 @@ color: #707070;
     padding:2rem;
     border-radius: .5rem;
     box-shadow:.1rem solid rgba(0,0,0,.1);
-    border:var(--border);
+
     text-align: center;
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
